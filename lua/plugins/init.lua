@@ -41,6 +41,8 @@ return {
         "markdown",
         "markdown_inline",
         "yaml",
+        "toml",
+        "rust",
       },
       indent = { enable = true },
       highlight = { enable = true },
@@ -50,4 +52,16 @@ return {
     end,
   },
   { import = "nvchad.blink.lazyspec" },
+  {
+    "mrcjkb/rustaceanvim",
+    version = "^5",
+    lazy = false,
+  },
+  {
+    "rust-lang/rust.vim",
+    ft = "rust",
+    init = function()
+      vim.g.rustfmt_autosave = 1
+    end,
+  },
 }

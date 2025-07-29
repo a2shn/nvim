@@ -25,6 +25,7 @@ M.mason = {
     "lua-language-server",
     "stylua",
     "typescript-language-server",
+    "rust-analyzer"
   },
 }
 
