@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "carbonfox",
+  theme = "rosepine",
   integrations = { "neogit", "blink" },
 
   hl_override = {

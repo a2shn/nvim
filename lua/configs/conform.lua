@@ -10,6 +10,8 @@ local options = {
     css = { "prettier" },
     html = { "prettier" },
     lua = { "stylua" },
+    bash = { "shfmt" },
+    sh = { "shfmt" },
   },
 
   format_on_save = {
